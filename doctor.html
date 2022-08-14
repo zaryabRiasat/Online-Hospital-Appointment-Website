@@ -1,0 +1,97 @@
+<html>
+<head>
+	<title> ZIAA Hospital </title>
+    <script type="text/javascript">
+        function password_check() {
+          pass = document.getElementById("pass").value;
+		  
+          if (pass="123456")
+          {
+              alert('Valid Entry_Code');
+          }
+		  else
+		  {
+			  alert('Invalid Entry_Code');
+		  }
+      }
+      </script>
+
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="top">
+		<div>
+		 Contact Us +92308xxxxxxx | Ziaa@hospital.com
+		</div>
+	</div>
+
+	<div class="logo">
+		<div>
+			<table>
+				<tr>
+					<td width="600px" style="font-size:50px;font-family:forte;"> <font color="#428bca"> ZIAA  </font><font color="#000"> Hospital</font> </td>
+					<td> <br> <br>
+						<font size="4px">
+							<a href="index.html">HOME</a>
+							<a href="about.html">ABOUT US</a>
+							<a href="service.html">SERVICE</a>
+							<a href="doctor.html">DOCTORS</a>
+							<a href="contact.html">CONTACT US</a>
+						</font>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="bottom">
+		<div>
+			<table border="0">
+				<tr>
+					<td width="700px">
+						<font color="#0000ff" font size="5px"> This section will contain information of doctors. </font> <br> <br>
+<font size="5px">SERVICES
+<ul>
+<li>doctor1(MBBS)etc.
+<li>
+<li>
+<li>
+<li>
+</ul>
+</font>
+<br>
+ </td>
+
+
+					<td> </td>
+				</tr>
+
+
+			</table>
+		</div>
+	</div>
+
+	<div class="bottom_up">
+		<div>
+				For Checking Of Appointments Enter Entry_Code In Below Box
+                
+             <form method="post" id="register" action="http://localhost/Extracting_Appointments.php">
+             <input type="password" name="password" id="pass" placeholder="Entry_Code"><br><br>
+             <input type="submit" name="submit" id="style1" value="Enter" onclick="password_check();"><br><br>
+      </form>
+		</div>
+	</div>
+
+
+	<div class="nav_down">
+		<div>
+		 &copy; ZIAA Hospital, site designed & developed by 4c Production		</div>
+	</div>
+    </body>
+    </html>
